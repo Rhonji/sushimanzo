@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+.hero{
+            background-image: url(../images/sushi_hero.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 1px; /* Adjust padding as needed */
+            color: #fff; /* Text color on the navigation bar */
+            text-align: center;
+			
+        }	
+		
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F9966B;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: Maroon;
+  width: 25px;
+  height: 25px; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  width: 25px;
+  height: 25px; 
+  border-radius: 20px;
+  background: #E55B3C;
+}
+
+.gfg {
+            filter: blur(5px);
+            width: 100%;
+        }
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+    margin: 5px;
+}
+
+.img3 {
+    float: left;
+}
+
+.img4 {
+	float: right;
+}
+
+.sticky-button {
+	  animation: mymove 5s infinite;
+
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: White;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .sticky-button:hover {
+            background-color: #F9966B;
+        }
